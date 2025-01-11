@@ -1,0 +1,21 @@
+Resumen
+Introducción
+Hablar de AWK y manejo de scripts
+
+Objetivos
+Objetivo General
+Desarrollar script en bash dentro del entorno de Linux para la automatización de tareas de procesamiento de texto y extracción de información del sistema.
+Objetivos Específicos
+Automatizar la extracción y visualización de información de texto mediante scripts.
+Evaluar un correcto funcionamiento de scripts desarrollados en bash aplicando criterios de adaptabilidad a cambios futuros.
+Desarrollo
+Script 1:
+El comando a continuación utilizado awk de acuerdo a su documentación [1]:
+
+awk -F',' '{print $9}' Descargas/logs.csv | sort | uniq # Este es un comentario
+
+Script 2
+Conclusiones
+Recomendaciones
+Referencias
+[1] D. Lemonaki, «The Linux AWK Command – Linux and Unix Usage Syntax Examples», freeCodeCamp.org, 12 de octubre de 2021. https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/
